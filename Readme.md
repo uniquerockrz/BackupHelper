@@ -41,8 +41,8 @@ $ ./BackupHelper a.txt b.txt
 
 The program would display all the files and folders that have been added after your last backup. Now you can burn the changed or added files in your backup dvd.
 
-http://img10.imageshack.us/i/screenshot3id.png/
-http://img10.imageshack.us/img10/2867/screenshot3id.png
+![Output 1](http://img10.imageshack.us/i/screenshot3id.png)
+![Output 2)(http://img10.imageshack.us/img10/2867/screenshot3id.png)
 
 Delete the old filelist file. Keep the new. Next time you want to take backup, cd to the folder and create the filelist file using tree -fis >filelist.txt command. Compare the older file with new one and you are done.
 
